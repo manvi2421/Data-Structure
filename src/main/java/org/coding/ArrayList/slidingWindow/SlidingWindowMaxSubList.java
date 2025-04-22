@@ -23,7 +23,7 @@ public class SlidingWindowMaxSum {
         Keep updating the max sum
     */
     public static void main(String[] args) {
-        ArrayList<Integer> list =new ArrayList<>(Arrays.asList(2, 1, 5, 11, 3, 2));
+        ArrayList<Integer> list =new ArrayList<>(Arrays.asList(2,3,5,4,6,8));//(2, 1, 5, 11, 3, 2
         System.out.println("List: "+ list);
          int maxSum=0;
          int slideSum=0;
